@@ -20,10 +20,10 @@ async def start(event):
     await event.reply(
         f"Hi `{event.sender.first_name}`\n\nThis is A CompressorQueue Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
         buttons=[
-            [Button.inline("HELP", data="help")],
+            [Button.inline("Help", data="help")],
             [
-                Button.url(""🤖 Update Channel, url="t.me/tellybots_4u"),
-                Button.url("💬 Support Group", url="t.me/tellybots_support"),
+                Button.url(""Update Channel, url="t.me/tellybots_4u"),
+                Button.url("Support Group", url="t.me/tellybots_support"),
             ],
         ],
     )
